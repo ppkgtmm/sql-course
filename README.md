@@ -1,6 +1,6 @@
 ## Set up
 
-1. Install postgresql
+1. Install [PostgreSQL](https://www.postgresql.org/download/)
 2. Go to `db-setup` folder
 
 ```sh
@@ -26,3 +26,4 @@ cd ../
 ```
 
 ## ER diagram
+<img src="https://github.com/ppkgtmm/usql/raw/main/assets/parch-n-posey-er-diagram.png"/>
