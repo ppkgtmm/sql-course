@@ -59,4 +59,3 @@ SELECT o.occurred_at, a."name" account, o.total, o.total_amt_usd
 FROM orders o LEFT JOIN accounts a ON o.account_id = a.id
 WHERE o.occurred_at BETWEEN '2015-01-01T00:00:00Z' AND '2015-12-31T23:59:59Z'
 ORDER BY o.occurred_at DESC;
-
