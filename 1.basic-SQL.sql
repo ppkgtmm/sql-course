@@ -50,7 +50,7 @@ SELECT name FROM accounts WHERE name NOT LIKE 'C%' AND name  LIKE '%s';
 
 SELECT occurred_at, gloss_qty FROM orders WHERE gloss_qty BETWEEN 24 AND 29 ORDER BY gloss_qty;
 
-SELECT * FROM web_events WHERE channel IN ('organic', 'adwords') AND occurred_at BETWEEN '2016-01-01 00:00:00' AND '2016-12-31 23:59:59' ORDER BY occurred_at DESC;
+SELECT * FROM web_events WHERE channel IN ('organic', 'adwords') AND occurred_at BETWEEN '2016-01-01T00:00:00Z' AND '2016-12-31T23:59:59Z' ORDER BY occurred_at DESC;
 
 SELECT id FROM orders WHERE gloss_qty > 4000 OR poster_qty > 4000;
 
