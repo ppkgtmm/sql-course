@@ -5,7 +5,7 @@ CREATE TABLE sf_crime_data (
     category varchar,
     descript varchar,
     day_of_week varchar(10),
-    date timestamp,
+    date varchar,
     time varchar(5),
     pd_district varchar,
     resolution varchar,
