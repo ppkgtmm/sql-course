@@ -1,8 +1,6 @@
 # SQL for data analysis
 
-## General info
-- Repo for storing work from Udacity's SQL for data analysis MOOC which focuses on querying data to answer given business questions
-- Database setup process for this course has made more automated and reusable with written setup scripts
+Repo created to store work from Udacity's SQL for data analysis MOOC which focuses on querying data to answer given business questions. Database setup process for this course has made more automated and reusable with written setup scripts
 
 ## Set up
 
@@ -39,8 +37,7 @@ cd ../
 
 ## Notes
 
-### Query performance tuning
-
-- Test query on subset of data by selecting a subset (LIMIT) with subquery in from clause
-- Reduce table sizes before joining them e.g. aggregate large tables before joining
-- Look at the cost in query plan, the higher the more time query will take, as a guide for optimization
+- Query performance tuning
+  - Test query on subset of data by selecting a subset (LIMIT) with subquery in from clause
+  - Reduce table sizes before joining them e.g. aggregate large tables before joining
+  - Look at the cost in query plan, the higher the more time query will take, as a guide for optimization
