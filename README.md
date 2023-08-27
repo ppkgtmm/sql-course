@@ -1,4 +1,4 @@
-# SQL for data analysis
+# sql for data analysis
 
 Repo created to store work from Udacity's SQL for data analysis MOOC which focuses on querying data to answer given business questions. Database setup process for this course has made more automated and reusable with written setup scripts
 
