@@ -1,0 +1,4 @@
+query performance tuning
+- test query on subset of data by selecting a subset (limit) with subquery in from clause
+- reduce table sizes before joining them e.g. aggregate large tables before joining
+- look at the cost in query plan as a guide for optimization, the higher the more time query will take
