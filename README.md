@@ -1,41 +1,42 @@
-# sql for data analysis
+# sql course
 
 Repo created to store work from Udacity's SQL for data analysis MOOC which focuses on querying data to answer given business questions. Database setup process for this course has made more automated and reusable with written setup scripts
 
-## Set up
+## set up
 
-1. Install [PostgreSQL](https://www.postgresql.org/download/)
-2. Go to `db-setup` folder
+1. install [PostgreSQL](https://www.postgresql.org/download/)
+
+2. go to `db-setup` folder
 
 ```sh
 cd db-setup
 ```
 
-3. Grant permission to `setup.sh`
+3. grant permission to `setup.sh`
 
 ```sh
 chmod +x setup.sh
 ```
 
-4. Run `setup.sh` to prepare database
+4. run `setup.sh` to prepare database
 
 ```sh
 ./setup.sh
 ```
 
-5. Exit `db-setup` folder
+5. exit `db-setup` folder
 
 ```sh
 cd ../
 ```
 
-6. Repeat step `2-5` for `sf-db-setup` folder
+6. repeat step `2-5` for `sf-db-setup` folder
 
-## ER diagram
+## database diagram
 
 <img src="https://github.com/ppkgtmm/usql/raw/main/assets/parch-n-posey-er-diagram.png"/>
 
-## Notes
+## notes
 
 - Query performance tuning
   - Test query on subset of data by selecting a subset (LIMIT) with subquery in from clause
