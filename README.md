@@ -1,4 +1,4 @@
-# sql course
+# 📚 sql course
 
 work from udacity sql for data analysis course with automated database setup process
 
