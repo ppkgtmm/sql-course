@@ -31,14 +31,3 @@ cd ../
 ```
 
 6. repeat step `2-5` for `sf-db-setup` folder
-
-## database diagram
-
-<img src="https://github.com/ppkgtmm/usql/raw/main/assets/parch-n-posey-er-diagram.png"/>
-
-## notes
-
-- Query performance tuning
-  - Test query on subset of data by selecting a subset (LIMIT) with subquery in from clause
-  - Reduce table sizes before joining them e.g. aggregate large tables before joining
-  - Look at the cost in query plan, the higher the more time query will take, as a guide for optimization
